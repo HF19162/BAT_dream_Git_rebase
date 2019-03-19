@@ -1,0 +1,17 @@
+1.git log --oneline
+版本号，可以用来唯一标识某个版本，唯一性表达
+17529b4 (HEAD -> master) add 2.txt
+de7f97e  OK
+时间戳
+2.git checkout -b branch1
+切换分支
+3.git branch
+当前分支查看
+4.基点，在新建分支时产生，会产生提交记录的分叉
+
+5.git checkout master 
+切回master(属性名)的位置
+6.git log --oneline --graph
+加*
+7.git merge branch1分支合并
+8.git reset --hard HEAD^撤销合并
